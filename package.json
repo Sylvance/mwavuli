@@ -2,7 +2,7 @@
   "name": "mwavuli",
   "version": "1.0.0",
   "description": "Mwavuli is an open source project which enables developers to add pesa(money) functionality to an application that lacks this. Feel free to fork contribute",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "npm test",
     "start": "node ./bin/www"
