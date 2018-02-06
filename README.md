@@ -1,4 +1,6 @@
 # Mwavuli
+[![Build Status](https://travis-ci.org/Sylvance/mwavuli.svg?branch=develop)](https://travis-ci.org/Sylvance/mwavuli)
+[![Coverage Status](https://coveralls.io/repos/github/Sylvance/mwavuli/badge.svg)](https://coveralls.io/github/Sylvance/mwavuli)
 Mwavuli is an open source project which enables developers to add pesa(money) functionality to an application that lacks this. Feel free to fork contribute
 
 ## Requirements
