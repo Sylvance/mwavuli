@@ -4,7 +4,7 @@
   "description": "Mwavuli is an open source project which enables developers to add pesa(money) functionality to an application that lacks this. Feel free to fork contribute",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --timeout 10000",
+    "test": "mocha --timeout 1000 --exit",
     "start": "node ./bin/www"
   },
   "repository": {
