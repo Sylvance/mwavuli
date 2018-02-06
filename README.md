@@ -5,6 +5,15 @@ Mwavuli is an open source project which enables developers to add pesa(money) fu
 - Nodejs
 - Postman
 
+## Installation
+Clone this repo.
+
+Change directory to the root of this folder.
+Install dependencies;
+`npm install`
+Start the server;
+`npm start`
+
 ## Contribute
 ### Trello board
 To contribute join the Mwavuli Trello board [here](https://trello.com/b/z7EFZ9l1/mwavuli).
@@ -14,10 +23,11 @@ We will be using the git-workflow for contributions. Refer [here](https://github
 We will use the following ground rules in naming our branches;
 `prefix`-`branch_name`
 - For a prefixes;
-    `ft`  for feature
-    `bg`  for a bug
-    `ch`  for a chore
-    `rls` for a release
+    `ft`   for feature
+    `bg`   for a bug
+    `ch`   for a chore
+    `rls`  for a release
+    `htfx` for a hot-fix
 
 - For the name;
     `branch_name` will be the title of the card in the trello card.

@@ -1,0 +1,35 @@
+{
+  "name": "mwavuli",
+  "version": "1.0.0",
+  "description": "Mwavuli is an open source project which enables developers to add pesa(money) functionality to an application that lacks this. Feel free to fork contribute",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sylvance/mwavuli.git"
+  },
+  "keywords": [
+    "mpesa",
+    "nodejs",
+    "cart",
+    "money",
+    "api"
+  ],
+  "author": "Sylvance Kerandi",
+  "contributors": [
+    "Sylvance Kerandi"
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Sylvance/mwavuli/issues"
+  },
+  "homepage": "https://github.com/Sylvance/mwavuli#readme",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "express": "~4.13.1"
+  }
+}
