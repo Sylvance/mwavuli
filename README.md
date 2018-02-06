@@ -1,6 +1,7 @@
 # Mwavuli
 [![Build Status](https://travis-ci.org/Sylvance/mwavuli.svg?branch=develop)](https://travis-ci.org/Sylvance/mwavuli)
 [![Coverage Status](https://coveralls.io/repos/github/Sylvance/mwavuli/badge.svg)](https://coveralls.io/github/Sylvance/mwavuli)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d8c8f7247f6b4abc91c5e2d690f47d73)](https://www.codacy.com/app/Sylvance/mwavuli?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Sylvance/mwavuli&amp;utm_campaign=Badge_Grade)
 
 Mwavuli is an open source project which enables developers to add pesa(money) functionality to an application that lacks this. Feel free to fork contribute
 
