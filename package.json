@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Mwavuli is an open source project which enables developers to add pesa(money) functionality to an application that lacks this. Feel free to fork contribute",
   "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha --timeout 1000 --exit",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "mocha",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -37,6 +42,7 @@
     "chai-http": "^3.0.0",
     "coveralls": "^3.0.0",
     "istanbul": "^0.4.5",
-    "mocha": "^5.0.0"
+    "mocha": "^3.5.3",
+    "mocha-lcov-reporter": "^1.3.0"
   }
 }
